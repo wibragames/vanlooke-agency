@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 
+
 const ArtistsPage = ({data: {allWpArtist: {edges}}}) => {
   return (
     <Layout pageTitle="Artists of Van Looke Agency">
